@@ -14,9 +14,13 @@ class Calculator {
 
 public class classAndobjects {
     public static void main(String[] args) {
-        // Create an instance of the Dog class
+        // Create an instance of the Calculator class
         Calculator calculator = new Calculator();   
-        calculator.add(5, 3); // Example usage of the add method
-        calculator.subtract(10, 4); // Example usage of the subtract method
+        int sum = calculator.add(5, 3); // Example usage of the add method
+        int difference = calculator.subtract(10, 4); // Example usage of the subtract method
+
+        // Print the results
+        System.out.println("Sum: " + sum);
+        System.out.println("Difference: " + difference);
     }
 }
