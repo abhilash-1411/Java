@@ -37,7 +37,28 @@ class MultiDimensionalArray {
             }
             System.out.println();
         }
-      
+
+        //#-- Example of a 3D array
+        int[][][] threeDArray = new int[2][2][2];
+        threeDArray[0][0][0] = 1;
+        threeDArray[0][0][1] = 2;
+        threeDArray[0][1][0] = 3;
+        threeDArray[0][1][1] = 4;
+        threeDArray[1][0][0] = 5;
+        threeDArray[1][0][1] = 6;
+        threeDArray[1][1][0] = 7;
+        threeDArray[1][1][1] = 8;
+        
+        System.out.println("3D Array elements:");
+
+        for (int i = 0; i < threeDArray.length; i++) {
+            for (int j = 0; j < threeDArray[i].length; j++) {
+                for (int k = 0; k < threeDArray[i][j].length; k++) {
+                    System.out.print(threeDArray[i][j][k] + " ");
+                }
+                System.out.println();
+            }
+        }
     }
 }
 // This code demonstrates the creation and manipulation of a multi-dimensional array in Java.
