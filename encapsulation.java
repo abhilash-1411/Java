@@ -10,6 +10,12 @@ class Human{
        name = "Johny";
        age = 12;
    }
+    // Parameterized constructor
+    public Human(int age, String name) {
+         this.age = age;
+         this.name = name;  
+            // this keyword is used to refer to the current object
+    }
    // Getter for Age
    public int getAge() {
        return age;
@@ -34,10 +40,16 @@ public class encapsulation {
     public static void main(String[] args) {
         
         Human obj = new Human();
+        Human obj1 = new Human(25, "Abhilash");
+        // Using the parameterized constructor
+        // Using the default constructor
 
         // obj.setAge(25);
         // obj.setName("Abhilash");
         System.out.println("Age: " + obj.getAge());
         System.out.println("Name: " + obj.getName());
+
+        System.out.println("Age: " + obj1.getAge());
+        System.out.println("Name: " + obj1.getName());
     }
 }
