@@ -14,6 +14,7 @@ class B implements A{
     public void config() {
         System.out.println("Configuring class B");
     }
+
 }
 
 
