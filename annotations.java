@@ -1,5 +1,4 @@
 class Car {
-    
     public void drive() {
         System.out.println("Car is starting");
     }
@@ -11,7 +10,6 @@ class WagonR extends Car {
     }
 }
 
-
 public class annotations {
     public static void main(String[] args) {
         System.out.println("Annotations in Java");
@@ -19,3 +17,4 @@ public class annotations {
         obj.drive();
     }
 }
+
