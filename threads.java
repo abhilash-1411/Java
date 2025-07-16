@@ -19,7 +19,7 @@ class B extends Thread {
                 Thread.sleep(10);
             } catch (InterruptedException e) {
                 e.printStackTrace();
-            }
+            } 
         }
     }
 }
